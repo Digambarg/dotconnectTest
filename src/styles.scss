@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+body{margin: 0;}
+.p-toolbar{background: #2196F3!important;color: #fff }
+.productListHeading{font-size: 20px; color: #2196F3; padding: 16px; font-weight: 600;padding-bottom: 0px;}
+.productListWrap{border:1px solid #ccc;margin-top: 16px;position: relative;cursor: pointer;}
+.productListWrap:last-child{margin-bottom: 0;}
+.productimg{}
+.productimg img{width: 100%;}
+.productInfoWrap{}
+.productName{}
+.productBy{color: #ababab;}
+.productPrice{font-size: 22px; font-weight: 600; color: #2196F3;}
+.leftCard .p-card{box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);}
+.leftCard .p-card-body{padding-top: 0!important;}
+.productDetailsSection .box{height: 100%;box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);}
+.formarea .p-field{}
+.formarea .p-field label{display: block}
+.formarea .p-field .p-inputtext{width: 100%;}
+.editProduct{position: absolute;top: 7px; right: 7px;}
+.deleteProduct{position: absolute;bottom: 7px; right: 7px;}
+.cardContent {
+    max-height: calc(100vh - 158px);
+    overflow: auto;
+    display: flex;
+    flex-flow: column-reverse;
+}
+.selectProduct{font-size: 40px; font-weight: 600; color: #2196F3;line-height: 250px; text-align: center}
