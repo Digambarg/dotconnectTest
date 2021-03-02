@@ -83,7 +83,15 @@
       <div class="selectProduct">Please select product to see details.</div>
     </div>
     <div *ngIf="showExportOption" class="p-component p-shadow-4 p-p-3 box">
-      Export
+      <div class="exportText p-mb-4">You can select below files</div>
+      <div class="p-text-center">
+        <button  pButton type="button" class="p-button-rounded p-button-outlined p-mr-3" label="CSV"
+            icon="pi pi-file-excel"></button>
+            <button  pButton type="button" class="p-button-rounded p-button-outlined p-mr-3" label="JSON String"
+            icon="pi pi-book"></button> 
+            <button  pButton type="button" class="p-button-rounded p-button-outlined p-mr-3" label="Plain Text"
+            icon="pi pi-file"></button>    
+      </div>
     </div>
   </div>
 </div>
