@@ -21,7 +21,7 @@
         </div>
       </div>
 
-      <div class="cardContent p-p-3">
+      <div class="cardContent">
         <div (click)="update(product,i)" *ngFor="let product of products;let i=index" class="productListWrap p-d-flex p-jc-between p-shadow-7">
           <div class="productimg p-col-4">
             <img src="../assets/images/eyeCreame.jpg" alt="" class="" />
@@ -83,7 +83,7 @@
       <div class="selectProduct">Please select product to see details.</div>
     </div>
     <div *ngIf="showExportOption" class="p-component p-shadow-4 p-p-3 box">
-      <div class="exportText p-mb-4">You can select below files</div>
+      <div class="exportText p-mb-4">You can select below format to export the data</div>
       <div class="p-text-center">
         <button  pButton type="button" class="p-button-rounded p-button-outlined p-mr-3" label="CSV"
             icon="pi pi-file-excel"></button>

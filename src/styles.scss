@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 body{margin: 0;}
 .p-toolbar{background: #2196F3!important;color: #fff }
-.productListHeading{font-size: 20px; color: #2196F3; padding: 16px; font-weight: 600;padding-bottom: 0px;}
+.productListHeading{font-size: 20px; color: #2196F3; padding: 16px; font-weight: 600;}
 .productListWrap{border:1px solid #ccc;margin-top: 16px;position: relative;cursor: pointer;}
 .productListWrap:last-child{margin-bottom: 0;}
 .productimg{}
@@ -23,6 +23,7 @@ body{margin: 0;}
     overflow: auto;
     display: flex;
     flex-flow: column-reverse;
+    padding: 0px 15px 15px 15px;
 }
 .selectProduct{font-size: 40px; font-weight: 600; color: #2196F3;line-height: 250px; text-align: center}
 .exportText{font-size: 20px; font-weight: 600; color: #2196F3;line-height: 50px; text-align: center}
